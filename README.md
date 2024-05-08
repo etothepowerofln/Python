@@ -1,6 +1,6 @@
 # Python
 
-This repository contains basic references about the Python language and other projects.
+This repository contains basic references about the Python language and other projects. These files can be used for educational purposes, but explicitly give me the credits.
 
 | Course | File |
 | ------ | ---- |
