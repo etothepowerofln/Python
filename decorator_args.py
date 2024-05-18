@@ -6,9 +6,11 @@ def decorator(function):
         return to_uppercase
     return wrapper
 
+
 @decorator
 def cities(city_one, city_two):
     print("Cities function called")
     return f"{city_one} and {city_two} are cities I visited"
+
 
 print(cities("Florianópolis", "Porto Alegre"))

@@ -9,10 +9,14 @@ def decorator_maker(decorator_arg1, decorator_arg2, decorator_arg3):
         return wrapper
     return decorator
 
+
 flor = "Florianópolis"
-@decorator_maker(flor, "Milano","Roma")
-def cities(city_one, city_two, city_three):
+
+
+@decorator_maker(flor, "Milano", "Roma")
+def cities(*args):
     print("Cities function called")
-    return f"{city_one}, {city_two} and {city_three} are cities I visited"
+    return f"{args} are cities I visited"
+
 
 print(cities(flor, "Porto Alegre", "São Paulo"))
